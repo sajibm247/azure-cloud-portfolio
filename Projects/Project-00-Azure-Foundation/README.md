@@ -43,5 +43,4 @@ and tagging conventions used across the rest of the portfolio.
 - How to run my first Azure CLI command (`az group show`)
 
 ## Open Question
-- [Your open question here — e.g. "At what point would ZRS actually
-  matter for a real small business app?"]
+- At what point would ZRS actually matter for a real small business app??

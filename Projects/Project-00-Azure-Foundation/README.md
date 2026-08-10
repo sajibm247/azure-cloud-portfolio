@@ -41,6 +41,10 @@ and tagging conventions used across the rest of the portfolio.
   not just a folder
 - The practical difference between storage redundancy tiers
 - How to run my first Azure CLI command (`az group show`)
+  
+## Screenshots
+![Creating the storage account](./screenshots/Creating%20storage%20acc.png)
+![Storage account overview](./screenshots/Storage%20acc%20overview.png)
 
 ## Open Question
 - At what point would ZRS actually matter for a real small business app??

@@ -68,12 +68,29 @@ evaluated on **Actual** spend rather than Forecasted, with alerts at
 50% and 90%) before deploying any compute resources, since VMs are
 the first resources in this project capable of running up real cost.
 
+## Screenshots
+
+### Network Setup
+![VNet deployed](./screenshots/Vnet%20Deploy.png)
+![Subnets linked](./screenshots/Subnet%20linking.png)
+![NSG deployed](./screenshots/NSG%20deploy.png)
+![NSG rules for app subnet](./screenshots/NSG%20for%20app.png)
+![Deploying inbound rules](./screenshots/Deploying%20inbound%20rules.png)
+![Inbound security rules configured](./screenshots/inbound%20Security%20rules.png)
+![Inbound security rules detail](./screenshots/Screenshot%202026-08-05%20204735.png)
+![All resources deployed](./screenshots/Resources%20deployed.png)
+
+### DNS
+![Private DNS zone deployed](./screenshots/pvt%20DNS%20deployed.png)
+![VNet linked to private DNS zone](./screenshots/Virtual%20net%20linked%20in%20DNS.png)
+![DNS record set added](./screenshots/recordset%20added.png)
+
 ## Status / Next Steps
 - ✅ VNet and subnets created
 - ✅ NSG rules created, tested for correctness, bug fixed
 - ✅ Private DNS zone created and linked to the VNet
+- ✅ DNS record set created
 - ❌ No VM deployed yet — the rules have never been tested against
   real traffic
-- ❌ DNS records not yet created or resolved
 - **Next:** deploy a jump-box VM in `snet-web` to validate the NSG
   rules end-to-end and test DNS resolution against the private zone
